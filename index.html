@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Random Generator Site</title>
+</head>
+<body>
+	<script src="script.js" charset="utf-8"></script>
+	<div id = "container">
+		<img id = "backgroundImg" src="background.jpg">
+		<div id="tvContainer">
+			<!--<div id = "tv">
+				<div id="screen">
+
+				</div>
+			</div>-->
+			<div class="mainHeader">
+				<p class="header">Random Cereal Bowl Generator</p>
+			</div>
+			<div class="nameEntry">
+				<p id="enterYN">Enter Your Name to Generate: </p>
+				<form id="textBox"> Name: <input type="text" name="name"> </form>
+				<button type="button" onclick="makeRandomCereal()" id="goButton">Enter</button>
+			</div>
+			<div class="cerealTexts">
+				<div id="cereal"></div>
+				<p id="with"></p>
+				<div id="milk"></div>
+				<p id="ina"></p>
+				<div id="bowl"></div>
+			</div>
+			<div class="cerealImgs">
+				<div id="cerealPic">
+				</div>
+				<div id="milkPic">
+				</div>
+				<div id="bowlPic">
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
